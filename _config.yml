@@ -2,13 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+title: Systems-Theory-in-Systems-Biology
+first_name: Nicole
+middle_name: E.
+last_name: Radde
+email: nicole.radde@ist.uni-stuttgart.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Our research focuses on the modeling and analysis of intracellular regulation processes.
+  The ultimate goal is the development and application of mathematical methods to facilitate a better systemic understanding of these processes for particular
+  subsystems and the organization of molecular regulation mechanisms in general. I.e. these methods try to catch the dynamics of the underlying system,
+  the stochasticity of the process, population phenomens and capture the uncertainty in the model parameters and predictions.
+  To achieve this goal our group works in close collaboration with partners from molecular and cellular biology and mathematics.
+
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
