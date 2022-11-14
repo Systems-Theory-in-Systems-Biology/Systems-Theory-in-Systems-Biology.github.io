@@ -9,17 +9,19 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Systems Theory in Systems Biology</p>
+    <p>Institute for Systems Theory and Automatic Control (IST)</p>
+    <p>Pfaffenwaldring 9, 70569 Stuttgart</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+% for profile picture: just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Repository of the Systems Theory in Systems Biology Group of the University of Stuttgart. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Head of Group is Prof. Dr. rer. nat. Nicole Radde.
+
+Our research focuses on the modeling and analysis of intracellular regulation processes. The ultimate goal is the development and application of mathematical methods to facilitate a better systemic understanding of these processes for particular subsystems and the organization of molecular regulation mechanisms in general. I.e. these methods try to catch the dynamics of the underlying system, the stochasticity of the process, population phenomens and capture the uncertainty in the model parameters and predictions.To achieve this goal our group works in close collaboration with partners from molecular and cellular biology and mathematics.
