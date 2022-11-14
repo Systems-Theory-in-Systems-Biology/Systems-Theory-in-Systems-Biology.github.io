@@ -18,9 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-{% comment %}
-{% for profile picture: just name your picture `prof_pic.jpg` and put it in the `img/` folder. %}
-{% endcomment %}
 
 Repository of the Systems Theory in Systems Biology Group of the University of Stuttgart. 
 
