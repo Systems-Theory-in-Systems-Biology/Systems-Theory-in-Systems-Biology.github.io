@@ -7,6 +7,10 @@ nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+#### Course overview WS 22/23
+<ul>
+    <li>Dynamik Biologischer Systeme (2V/2Ü)</li>
+    <li>Grundlagen der Systembiologie (2V)</li>
+    <li>Simulationstechnik A (Teil C)</li>
+    <li>Wahrscheinlichkeitstheorie und Statistik I (2V)</li>
+</ul>
