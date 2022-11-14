@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - shoepfl
+  - nicoleradde
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - qualiperf/parameter_fitting 
+  - qualiperf
+  - Systems-Theory-in-Systems-Biology/Systems-Theory-in-Systems-Biology.github.io 
+
