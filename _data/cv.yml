@@ -35,3 +35,9 @@
       year: 2007-2008
       description: Korbinian Strimmer's group Statistics and Computational Biology
 
+- title: Committees
+  type: nested_list
+  contents:
+    - title: Excellence Cluster 'Data-integrated Simulation Science (EXC 2075)'.
+    - title: Research Unit 'Quantifying Liver Perfusion - Function Relationship in Complex Liver Resection (FOR 5151)'.
+    - title: 'Stuttgart Research Center Systems Biology (SRCSB)'.
