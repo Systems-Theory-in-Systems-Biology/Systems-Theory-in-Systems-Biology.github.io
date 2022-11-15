@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workshop on Computational Models in Biology and Medicine 2023
-date: 2023-06-19
+date: 2015-11-07 16:11:00-0400
 inline: false
 ---
 
