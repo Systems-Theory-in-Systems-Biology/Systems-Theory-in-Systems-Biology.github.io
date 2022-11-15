@@ -1,80 +1,36 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: BOED in Enzyme Kinetics
+description: Apply Bayesian optimal experimental design (BOED) to biocatalysis problems. Cooperation with Jürgen Pleiss and Jan Range.
+img: assets/img/EnzymeML_PEtab.png
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This Project is a joint work of <a href="https://www.ibtb.uni-stuttgart.de/institut/team/Pleiss-00001/">Jürgen Pleiss</a> and Jan Range from the Institute of Biochemistry and Technical Biochemistry and
+Nicole Radde and Sebastian Höpfl from the Institute for Systems Theory and Automatic Control.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project aims to enable more efficient experiment planning by predicting the best times for an experiment and thus avoiding costs for many iterations.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/BOED_expected_information_gain.png" title="BOED" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Bayesian Optimal Experiment Design (BOED) favours the experiment, which maximizes the Information Gain (IG) in the parameter estimation. Here we select between two Designs wich measure the growth rate $\mu$ in two petri dishes. The outcome of the experiment is which petri dish shows higher overall growth rates and the value of these apparent growth rates. The second Design is more informative as the growth rates of both bacteria species can be determined separately. Therefore the posterior of Design 2 is more informative as in Design 1 and both start with a flat prior.
+</div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+For this project we use <a href="https://enzymeml.org/">EnzymeML</a> and <a href="https://petab.readthedocs.io/en/latest/">PEtab</a> to exchange parameter estimation problems in a FAIR manner.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Bayesian_Experiment_design.png" title="EnzymeML to PEtab" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The EnzymeML and PEtab formats can be converted to each other. PEtab is used to perform the bayesian uncertainty analysis via MCMC or Emcee sampling. The results of this analysis are credibility intervalls of the estimated parameters. These results are then stored in the according PEtab and EnzymeML file again.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+
