@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Workshop on Computational Models in Biology and Medicine 2023
-date: 2023-06-19 16:11:00-0400
+date: 2023-06-19
 inline: false
 ---
 
 The joint workshop of the <a href="https://www.gmds.de/">GMDS</a>/<a href="http://www.biometrische-gesellschaft.de/">IBS-DR</a> working groups "Statistical Methods in Bioinformatics" and "Mathematical Models in Medicine and Biology" will take place 
 
 at June 19 - 20 in Stuttgart.
-***
+
 
 ### Workshop outline
 
