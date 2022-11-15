@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A long announcement with details
+title: Workshop on Computational Models in Biology and Medicine 2023
 date: 2015-11-07 16:11:00-0400
 inline: false
 ---
@@ -48,8 +48,18 @@ From the main station in Stuttgart you can take the tram (S-Bahn not U-Bahn) lin
 
 If you have any questions feel free to write us a mail.
 
-nicole.radde@ist.uni-stuttgart.de
-Prof. Dr. Nicole Radde
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Radde.jpg" title="Nicole Radde" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Sebastian1.jpg" title="Sebastian Höpfl" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Local organization and support by Nicole Radde and Sebastian Höpfl.
+</div>
 
-sebastian.hoepfl@ist.uni-stuttgart.de
-Sebastian Höpfl
+<a href="nicole.radde@ist.uni-stuttgart.de">Prof. Dr. Nicole Radde</a>
+
+<a href="sebastian.hoepfl@ist.uni-stuttgart.de">Sebastian Höpfl</a>
