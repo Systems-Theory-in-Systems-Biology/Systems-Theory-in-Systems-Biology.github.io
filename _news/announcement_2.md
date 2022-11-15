@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workshop on Computational Models in Biology and Medicine 2023
-date: 2015-11-07 16:11:00-0400
+date: 2023-06-19 16:11:00-0400
 inline: false
 ---
 
@@ -53,7 +53,7 @@ If you have any questions feel free to write us a mail.
         {% include figure.html path="assets/img/Radde.jpg" title="Nicole Radde" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Sebastian1.jpg" title="Sebastian Höpfl" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Sebastian_1.jpg" title="Sebastian Höpfl" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
